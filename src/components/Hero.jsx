@@ -19,8 +19,8 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Sushil Kumar</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a fourth-year student pursuing B.Tech in Computer Science and Engineering (CSE) at the prestigious institution, IIT Ropar,<br className='sm:block hidden' />
-            I welcome you to my protfolio
+          I am a fourth-year student, currently pursuing my B.Tech in Computer Science and Engineering (CSE) at the esteemed institution, IIT Ropar.<br className='sm:block hidden' />
+          I am excited to extend a warm welcome to you as you explore my portfolio
           </p>
         </div>
       </div>
