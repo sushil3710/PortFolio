@@ -46,6 +46,10 @@ const services = [
     icon: backend,
   },
   {
+    title: "C/C++",
+    icon: jobit,
+  },
+  {
     title: "Database",
     icon: mobile,
   },
@@ -54,25 +58,17 @@ const services = [
     icon: web,
   },
   
+  
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+
+
   {
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "React JS",
     icon: reactjs,
@@ -97,19 +93,8 @@ const technologies = [
     name: "Three JS",
     icon: threejs,
   },
-  {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
+
 
 const experiences = [
   {
