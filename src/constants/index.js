@@ -114,10 +114,10 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Software Developer",
-    company_name: "Samsung",
+    title: "SDE Intern",
+    company_name: "Samsung Research(SRIB), Bangalore",
     icon: starbucks,
-    iconBg: "#383E56",
+    iconBg: "#FFFFF6",
     date: "June 2023 - August 2023",
     points: [
       "Conducted comprehensive testing on developed functions, meticulously creating test cases to cover a wide array of scenarios,increasing overall coverage, enhancing the product’s stability and functionality",
