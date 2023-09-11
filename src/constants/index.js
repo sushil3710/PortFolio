@@ -50,12 +50,28 @@ const services = [
     icon: jobit,
   },
   {
-    title: "Database",
+    title: "Database SQL",
     icon: mobile,
   },
   {
-    title: "WebDev",
-    icon: web,
+    title: "Java",
+    icon: tailwind,
+  },
+  {
+    title: "JavaScript",
+    icon: javascript,
+  },
+  {
+    title: "React JS",
+    icon: reactjs,
+  },
+  {
+    title: "Node JS",
+    icon: nodejs,
+  },
+  {
+    title: "Verilog",
+    icon: docker,
   },
   
   

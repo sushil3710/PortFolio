@@ -53,13 +53,16 @@ const About = () => {
         where I can apply my knowledge and learn from experienced professionals.
       </motion.p>
 
-      {/* <motion.p
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+    <div className={`mt-10 bg-black-100 rounded-[20px]`}>
+       <div
+        className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[100px]`}
       >
-     I am currently enrolled in a comprehensive CSE program that has equipped me with a deep understanding of various domains in computer science. 
-     My academic journey has been marked by consistent dedication and a keen interest in exploring cutting-edge technologies.
-      </motion.p> */}
+        <motion.div variants={textVariant()}>
+          <p className={styles.sectionSubText}>Technical Skils.</p>
+          <h2 className={styles.sectionHeadText}>Have Worked In</h2>
+        </motion.div>
+      </div>
+    </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
