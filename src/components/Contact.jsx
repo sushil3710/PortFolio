@@ -7,7 +7,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import {redux,typescript} from "../assets";
+import {redux,typescript,figma} from "../assets";
 
 const Contact = () => {
   const formRef = useRef();
@@ -87,22 +87,36 @@ const Contact = () => {
         <div className='contact-detail'>
           <span style={{ fontSize: '1.25rem' }}>Email Id: 2020csb1132@iitrpr.ac.in</span>
         </div>
-        <div className='contact-detail' style={{ cursor: 'pointer', width: '100%' }} onClick={() => window.open('https://www.linkedin.com/in/sushil-khatana-3007aa236/')}>
-          <img
-            src={typescript}
-            alt="LinkedIn"
-            className='w-10 h-10 object-cover rounded-2xl'
-          />
-          <span style={{ fontSize: '1.25rem' }}>LinkedIn</span>
-        </div>
-        <div className='contact-detail' style={{ cursor: 'pointer', width: '100%' }}onClick={() => window.open('https://instagram.com/khasush_?igshid=NzZlODBkYWE4Ng==')}>
-          <img
-            src={redux}
-           alt="Instagram"
-            className='w-10 h-10 object-cover rounded-2xl'
-          />
-          <span style={{ fontSize: '1.25rem' }}>Instagram</span>
-        </div>
+       
+        <div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }} onClick={() => window.open('https://www.linkedin.com/in/sushil-khatana-3007aa236/')}>
+  <img
+    src={typescript}
+    alt="LinkedIn"
+    className='w-8 h-8 object-cover rounded-2xl'
+  />
+  <p className="text-gray-500 ml-2">LinkedIn</p>
+</div>
+<div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }} onClick={() => window.open('https://github.com/sushil3710')}>
+  <img
+    src={figma}
+    alt="Instagram"
+    className='w-8 h-8 object-cover rounded-2xl'
+  />
+
+  <p className="text-gray-500 ml-2">GitHub</p>
+</div>
+<div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }} onClick={() => window.open('https://instagram.com/khasush_?igshid=NzZlODBkYWE4Ng==')}>
+  <img
+    src={redux}
+    alt="Instagram"
+    className='w-8 h-8 object-cover rounded-2xl'
+  />
+  <p className="text-gray-500 ml-2">Instagram</p>
+</div>
+
+
+
+
       </div>
     </motion.div>
   
