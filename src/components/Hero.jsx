@@ -21,7 +21,7 @@ const Hero = () => {
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
           I am a fourth-year student, currently pursuing my B.Tech in Computer Science and Engineering (CSE) at the esteemed institution, IIT Ropar.<br className='sm:block hidden' />
-          I am excited to extend a warm welcome to you as you explore my portfolio
+          I am excited to extend a warm welcome to you as you explore my portfolio, please be my guest..
           </p>
           <motion.div
   className="flex justify-center items-center mt-5"

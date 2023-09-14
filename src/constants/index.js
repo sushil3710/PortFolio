@@ -120,7 +120,7 @@ const experiences = [
     iconBg: "#FFFFF6",
     date: "June 2023 - August 2023",
     points: [
-      "Conducted comprehensive testing on developed functions, meticulously creating test cases to cover a wide array of scenarios,increasing overall coverage, enhancing the product’s stability and functionality",
+      "Conducted comprehensive testing on developed functions, meticulously creating test cases to cover a wide array of scenarios,increasing coverages by 25%, enhancing the product’s stability and functionality",
       "Deployment of test cases on Samsung’s testing servers, executing thorough evaluations to identify and rectify issues.",
       "Participating in code reviews and providing constructive feedback to other developers.",
       "Appreciated by Team and Manager for consistency and smart work",
@@ -176,6 +176,7 @@ const projects = [
     ],
     image: carrent,
     source_code_link: "https://github.com/sushil3710/PHD_Admission_Portal",
+  
   },
   {
     name: "Utility Based Cache Partitioning",

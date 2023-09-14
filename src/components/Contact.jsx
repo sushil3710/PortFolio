@@ -77,7 +77,7 @@ const Contact = () => {
       <p className={styles.sectionSubText}>Get in touch</p>
       <h3 className={styles.sectionHeadText}>Contact.</h3>
   
-      <div className='max-w-[100%]' style={{ width: '200%' }}>
+      <div className='max-w-[100%]' style={{ width: '200%', marginBottom: '2rem' }}>
         <div className='contact-detail'>
           <span style={{ fontSize: '1.25rem' }}>Name: Sushil Kumar</span>
         </div>
@@ -88,7 +88,7 @@ const Contact = () => {
           <span style={{ fontSize: '1.25rem' }}>Email Id: 2020csb1132@iitrpr.ac.in</span>
         </div>
        
-        <div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }} onClick={() => window.open('https://www.linkedin.com/in/sushil-khatana-3007aa236/')}>
+        <div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginTop:'0.8rem',marginBottom: '0.7rem' }} onClick={() => window.open('https://www.linkedin.com/in/sushil-khatana-3007aa236/')}>
   <img
     src={typescript}
     alt="LinkedIn"
@@ -96,7 +96,7 @@ const Contact = () => {
   />
   <p className="text-gray-500 ml-2">LinkedIn</p>
 </div>
-<div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }} onClick={() => window.open('https://github.com/sushil3710')}>
+<div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginBottom: '0.7rem' }} onClick={() => window.open('https://github.com/sushil3710')}>
   <img
     src={figma}
     alt="Instagram"
@@ -105,7 +105,7 @@ const Contact = () => {
 
   <p className="text-gray-500 ml-2">GitHub</p>
 </div>
-<div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginBottom: '0.5rem' }} onClick={() => window.open('https://instagram.com/khasush_?igshid=NzZlODBkYWE4Ng==')}>
+<div className='contact-detail' style={{ cursor: 'pointer', width: '100%', display: 'flex', alignItems: 'center', marginBottom: '0.7rem' }} onClick={() => window.open('https://instagram.com/khasush_?igshid=NzZlODBkYWE4Ng==')}>
   <img
     src={redux}
     alt="Instagram"
